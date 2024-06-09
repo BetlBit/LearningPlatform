@@ -7,7 +7,7 @@ export class Item extends Component {
 				<h2>{this.props.item.title}</h2>
 				<iframe width="360" height="200" src={this.props.item.video} />
 				<p>{this.props.item.desc}</p>
-				<div className='addToCard'>+</div>
+				<div className='addToCart'>+</div>
 			</div>
 		)
 	}
