@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-	width: 1280px;
+	width: 100%;
 }
 
 header ul.nav {
@@ -82,4 +82,38 @@ header .presentation::before {
 footer {
 	text-align: center;
 	margin-top: 50px;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #fff3e7;
+}
+
+main .item {
+	background-color: #ffecd7;
+	margin: 0px 0px 10px 10px;
+	padding: 15px;
+	border: 1px solid;
+	border-radius: 10px 20px;
+}
+
+div ul.navMain {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 20px;
+}
+
+div ul.navMain li {
+	display: inline;
+	margin-left: 25px;
+	cursor: pointer;
+	color: #000000;
+	transition: opacity 500ms ease;
+}
+
+div ul.navMain li:hover {
+	opacity: 0.5;
 }
