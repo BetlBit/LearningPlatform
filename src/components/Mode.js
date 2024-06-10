@@ -5,8 +5,8 @@ export class Mode extends Component {
 		return (
 			<div>
 				<ul className='navMain'>
-					<li>Видеоматериалы</li>
-					<li>Текстовые статьи</li>
+					{/* <li>Видеоматериалы</li>
+					<li>Текстовые статьи</li> */}
 				</ul>
 			</div>
 		)
